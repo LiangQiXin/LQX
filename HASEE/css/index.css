@@ -1,0 +1,56 @@
+/*导航栏*/
+body>div>ul>li:nth-child(1):hover>ul{
+    /* 如果只做单纯的显示，就这个：display:none; */
+    top:55px;
+    opacity:0;
+    transition:all .5s linear;
+}
+/*焦点轮播图*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;
+    height:20%;
+    background-color:#aaa;
+    border-radius:0.5rem;
+    top:40%;
+}
+.carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    background-color:#fff;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    border-radius:50%;
+}
+.carousel-indicators .active {
+    background-color: #0aa1ed;
+}
+/*}1L楼层高度*/
+.my_height1{
+    height:320px;
+}
+.my_height2{
+    height:320px;
+}
+/*解决外边距溢出*/
+.berfore_margin:before{
+    content:'';
+    display:table;
+}
+
+.my_card_position{
+    margin-left:290px;
+    margin-top:-260px;
+}
+.font_size{
+    font-size:2rem;
+}
+/*图片大小*/
+.my_image_size{
+    width:200px;
+}
+.my_card_position2{
+    top:12px;
+    left:35px;
+}
+
+

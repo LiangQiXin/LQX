@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/comm.css">
+	<style>
+		*{margin:0;padding:0;}
+	  
+   
+		#container{
+			background-image:url(image/reg/1.jpg);
+      width:100%;
+      height:620px;
+      clear:both;
+      margin:0 auto;
+      background-size:100%;
+		}
+		#container::before{
+			content: "";
+			display:table;
+		}
+		.my_box{
+			width:800px;
+			height:500px;
+			background:rgba(223,224,225);
+			margin-top:36px;
+			margin-left:420px;
+			position: relative;
+		}
+	  img{
+		
+		 width:30px;
+		
+	
+	 }
+	
+	 .d1,.d2,.d3,.d4{
+    width:250px;
+		height:30px;
+		background:#fff url(image/reg/009-login.svg) no-repeat 97%  center;
+		 background-size:30px; 
+		 margin-left:20px;
+	 }
+	p{
+		padding: 15px;
+		margin:15px;
+	}
+		.background_size{
+			width:100px;
+			
+		} 
+		
+	 .btn{
+		 width:300px;height:40px;
+		 position: absolute;
+		 left:40px;
+	 }
+	 .pp{vertical-align: middle;}
+	</style>
+</head>
+<body>
+	<a href="">
+      <img src="image/login/logo.png" alt="">
+    </a>
+    <p>欢迎登陆</p>
+		<div id="container">
+			<!-- <table></table> -->
+       <div class="my_box">
+				 
+						 <p> &用户名:
+						<input class="d1" type="text" placeholder="">
+						<span>*请用邮箱或手机号</span>
+						</p>
+						<p>
+						 请设置密码:
+						<input class="d2" type="text" placeholder="">
+						<span>*6~12为字符,建议由字母,数字和符号两种以上组合</span>
+						</p>
+
+						<p>
+						请确认密码:
+						<input class="d2" type="text" placeholder="">
+						<span>再一次输入密码</span>
+						 </p>
+
+					    <p >
+							验证码:
+							<input class="d4" type="text" placeholder:"">
+							<img class="background_size pp" src="image/reg/ValidateCode.aspx" alt="">
+							</p>
+				      <p>
+								<input class="" type="checkbox" id="auto"><label for="auto">我已同意
+									<span><a href="">&lt;&lt;神舟用户协议&gt;&gt;</a></span>
+								</label>
+							</p>
+							<input class="btn" type="button" value="注册">
+			 </div>
+		</div>
+</body>
+</html>

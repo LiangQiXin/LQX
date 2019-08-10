@@ -1,0 +1,12 @@
+.my_color{background-color:#e8e8e8;}
+.breadcrumb-item + .breadcrumb-item::before {
+    content:"|";
+}
+div>a{
+    width:30px;
+    height:18px;
+    border:1px solid #002752;
+    padding:0.5rem;
+    top:14px;
+    position:relative;
+}
