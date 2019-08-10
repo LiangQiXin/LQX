@@ -1,18 +1,18 @@
-/*/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/*/
-/*body>div>ul>li:nth-child(1):hover>ul{*/
-/*    /* ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½display:none; */*/
-/*    top:55px;*/
-/*    opacity:0;*/
-/*    transition:all .5s linear;*/
-/*}*/
-/*ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½Í¼*/
+/*µ¼º½À¸
+ body>div>ul>li:nth-child(1):hover>ul{
+     Èç¹ûÖ»×öµ¥´¿µÄÏÔÊ¾£¬¾ÍÕâ¸ö£ºdisplay:none;
+        top:55px;
+    opacity:0;
+    transition:all .5s linear;
+}
+*/
 ul>li>a{
     width:130px;
     height:50px;
    
     text-align: center;
 }
-/*È«ï¿½ï¿½ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
+/*È«²¿ÉÌÆ··ÖÀàµÄÑùÊ½*/
 ul>li:first-child{ 
 background:#ff0000;
 }
@@ -25,7 +25,7 @@ ul>li>a:hover{
     background:#f1b0b7;
     display: block;
 }
-/*ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½*/
+/*ÉÌÆ··ÖÀà*/
 
 ul>li>ul>li>a{
     width:200px;
@@ -37,9 +37,7 @@ ul>li>ul>li>a{
      z-index:10px;
     float:left;
 }
-
-
-
+/*½¹µãÂÖ²¥Í¼*/
 .carousel-control-prev,
 .carousel-control-next{
     width:4%;
@@ -58,14 +56,14 @@ ul>li>ul>li>a{
 .carousel-indicators .active {
     background-color: #0aa1ed;
 }
-/*}1LÂ¥ï¿½ï¿½ß¶ï¿½*/
+/*}1LÂ¥²ã¸ß¶È*/
 .my_height1{
     height:320px;
 }
 .my_height2{
     height:320px;
 }
-/*ï¿½ï¿½ï¿½ï¿½ï¿½ß¾ï¿½ï¿½ï¿½ï¿½*/
+/*½â¾öÍâ±ß¾àÒç³ö*/
 .berfore_margin:before{
     content:'';
     display:table;
@@ -78,7 +76,7 @@ ul>li>ul>li>a{
 .font_size{
     font-size:2rem;
 }
-/*Í¼Æ¬ï¿½ï¿½Ð¡*/
+/*Í¼Æ¬´óÐ¡*/
 .my_image_size{
     width:200px;
 }
