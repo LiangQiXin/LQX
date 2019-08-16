@@ -1,6 +1,6 @@
-/*µ¼º½À¸
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  body>div>ul>li:nth-child(1):hover>ul{
-     Èç¹ûÖ»×öµ¥´¿µÄÏÔÊ¾£¬¾ÍÕâ¸ö£ºdisplay:none;
+     ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½display:none;
         top:55px;
     opacity:0;
     transition:all .5s linear;
@@ -12,9 +12,9 @@ ul>li>a{
    
     text-align: center;
 }
-/*È«²¿ÉÌÆ··ÖÀàµÄÑùÊ½*/
+/*È«ï¿½ï¿½ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
 ul>li:first-child{ 
-background:#ff0000;
+background:#f33c11;
 }
 .my_a{
 width:200px;
@@ -25,19 +25,45 @@ ul>li>a:hover{
     background:#f1b0b7;
     display: block;
 }
-/*ÉÌÆ··ÖÀà*/
 
+.clear-fix::after {
+    content:'';
+    display: block;
+    clear:both;
+}
+.d-non{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: #f33c11;
+}
+.d_block{
+    display:block; 
+}
+
+/*.drop:hover .d-non{
+    display:block; 
+}
+
+
+/*ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½*/
+
+/* #my_height{
+    box-sizing:border-box;
+    height:66px;
+    z-index: 19;
+} */
 ul>li>ul>li>a{
     width:200px;
     height:50px;
-	background:#ff0000;
+	background-color: #f33c11;
     padding-left:5px;
     line-height:50px;
      display: block;
-     z-index:10px;
+     
     float:left;
 }
-/*½¹µãÂÖ²¥Í¼*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½Í¼*/
 .carousel-control-prev,
 .carousel-control-next{
     width:4%;
@@ -56,14 +82,14 @@ ul>li>ul>li>a{
 .carousel-indicators .active {
     background-color: #0aa1ed;
 }
-/*}1LÂ¥²ã¸ß¶È*/
+/*}1LÂ¥ï¿½ï¿½ß¶ï¿½*/
 .my_height1{
     height:320px;
 }
 .my_height2{
     height:320px;
 }
-/*½â¾öÍâ±ß¾àÒç³ö*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ß¾ï¿½ï¿½ï¿½ï¿½*/
 .berfore_margin:before{
     content:'';
     display:table;
@@ -76,13 +102,17 @@ ul>li>ul>li>a{
 .font_size{
     font-size:2rem;
 }
-/*Í¼Æ¬´óÐ¡*/
+/*Í¼Æ¬ï¿½ï¿½Ð¡*/
 .my_image_size{
     width:200px;
 }
 .my_card_position2{
     top:12px;
     left:35px;
+}
+
+.car{
+    position:relative;
 }
 
 
